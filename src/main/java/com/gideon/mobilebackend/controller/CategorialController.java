@@ -31,6 +31,7 @@ public class CategorialController {
 
   @PostMapping("")
   public void create(@RequestBody CategorialDTO payload) {
+    // tes
     categorialService.create(payload);
   }
 
